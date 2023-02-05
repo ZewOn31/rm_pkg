@@ -5,7 +5,7 @@ SHRP="shrp"
 PBRP="pbrp"
 
 if [ "$RTYPE" = "$TWRP" ]; then
-    zip out/target/product/recovery.zip out/target/product/$DEVICE/$TARGET.*
+    zip out/target/product/recovery.zip out/target/product/$DEVICE/$TARGET.zip
 else
     zip out/target/product/recovery.zip out/target/product/$DEVICE/*.zip
 fi
